@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<!-- Facturas de clientes -->
+	<record id="invoice_customer_form_test" model="ir.ui.view">
+		<field name="name">invoice.customer.form.ecua</field>
+		<field name="model">account.invoice</field>
+		<field name="inherit_id" ref="account.invoice_form"/>
+		<field name="arch" type="xml">
+			<!-- Reemplazamos la fecha por los datos del cliente, luego colocamos la fecha en otra ubicacion -->
+			<xpath expr="//field[@name='date_invoice']" position="before">
+				<field name="check"/>
+			</xpath>
+			</field>			
+   </record>
+
+</odoo>
