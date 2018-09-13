@@ -8,10 +8,6 @@
     'description': '''
         Característica: 
             Módulo dummy para probar la funcionalidad basica de runbot.
-            
-        Funcionalidades:
-  
-       
     ''',
     'author': 'TRESCLOUD CIA LTDA',
     'maintainer': 'TRESCLOUD CIA. LTDA.',
