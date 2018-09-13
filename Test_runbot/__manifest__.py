@@ -23,7 +23,7 @@
     ],    
     'data': [
         #Views
-        'view/account_invoice_view.xml'
+        'views/account_invoice_view.xml'
     ],
     'installable': True
 }
