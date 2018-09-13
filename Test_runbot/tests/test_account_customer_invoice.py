@@ -54,4 +54,4 @@ class TestAccountCustomerInvoiceCheck(AccountTestUsers):
         }
         tax = self.env['account.invoice.tax'].create(invoice_tax_line)
 
-        assert (self.account_invoice_customer_test.check == True), "Debe ser Verdadero"
+        assert (self.account_invoice_customer_test.check == False), "Debe ser Verdadero"
